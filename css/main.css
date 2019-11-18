@@ -1,0 +1,113 @@
+html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#topBar {
+    margin-bottom: 1rem;
+}
+
+.listItem {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: rgb(250, 239, 142);
+    border: 1px solid rgb(204, 191, 120);
+    border-radius: 0.3rem;
+}
+
+.completedItemBG {
+    background-color: rgba(150, 150, 150, 0.1) !important;
+    border: 1px solid rgba(100, 100, 100, 0.2) !important;
+}
+
+.listItemHeader {
+    text-align: right;
+}
+
+.listItemDate {
+    margin: 0 auto;
+    float: right;
+}
+
+.listItemName {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.listItemText {
+    color: #333;
+}
+
+.listItemComplete {
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+.listItemDelete {
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+#creator {
+    background-color: rgba(250, 239, 142, 0.9) !important;
+    display: none;
+}
+
+.myOwnBtnStyle {
+    background-color: rgba(0, 0, 0, 0.05) !important;
+    border: none !important;
+    cursor: pointer;
+    padding: 2rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    font-weight: 100;
+    text-transform: uppercase;
+    outline-color: rgb(204, 191, 120);
+    color: black !important;
+}
+
+#add {
+    margin: auto;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    float: right;
+    background-color: white;
+    filter: drop-shadow(0 0 0.4em rgba(0,0,0,0.2));
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+#headerTitle {
+    text-transform: uppercase;
+    font-weight: 100;
+    float: left;
+}
+
+.itemCreateInput {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    width: 100%;
+    padding: 0.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    cursor: auto;
+    outline-width: 0;
+}
+
+
+.lineThrough {
+    text-decoration: line-through;
+}
